@@ -115,12 +115,12 @@
                     },
                     "countdown": {
                         "min_hours": {
-                            "value": 0.1,
+                            "value": 1,
                             "type": "number",
                             "description": "最小倒计时时间（小时）"
                         },
                         "max_hours": {
-                            "value": 0.2,
+                            "value": 2,
                             "type": "number",
                             "description": "最大倒计时时间（小时）"
                         }
@@ -128,7 +128,7 @@
                 },
                 "quiet_time": {
                     "start": {
-                        "value": "00:00",
+                        "value": "02:00",
                         "type": "string",
                         "description": "安静时间开始"
                     },
@@ -140,7 +140,7 @@
                 },
                 "context": {
                     "max_groups": {
-                        "value": 15,
+                        "value": 30,
                         "type": "number",
                         "description": "最大上下文轮数"
                     },
