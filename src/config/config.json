@@ -115,12 +115,12 @@
                     },
                     "countdown": {
                         "min_hours": {
-                            "value": 0,
+                            "value": 1,
                             "type": "number",
                             "description": "最小倒计时时间（小时）"
                         },
                         "max_hours": {
-                            "value": 0,
+                            "value": 2,
                             "type": "number",
                             "description": "最大倒计时时间（小时）"
                         }
@@ -167,16 +167,7 @@
             "title": "定时任务配置",
             "settings": {
                 "tasks": {
-                    "value": [
-                        {
-                            "task_id": "test",
-                            "chat_id": "拉拉拉",
-                            "content": "请你模拟系统设置的角色，在微信上找对方发消息想知道对方在做什么",
-                            "schedule_type": "cron",
-                            "schedule_time": "48 11 * * *",
-                            "is_active": true
-                        }
-                    ],
+                    "value": [],
                     "type": "array",
                     "description": "定时任务列表"
                 }
