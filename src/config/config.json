@@ -37,7 +37,7 @@
                     ]
                 },
                 "max_tokens": {
-                    "value": 2000,
+                    "value": 3000,
                     "type": "number",
                     "description": "回复最大token数量"
                 },
@@ -128,7 +128,7 @@
                 },
                 "quiet_time": {
                     "start": {
-                        "value": "02:00",
+                        "value": "00:00",
                         "type": "string",
                         "description": "安静时间开始"
                     },
