@@ -173,8 +173,8 @@
                             "chat_id": "拉拉拉",
                             "content": "请你模拟扮演的角色，在微信上找用户喊他早上起床",
                             "schedule_type": "cron",
-                            "is_active": true,
-                            "schedule_time": "0 8 * * *"
+                            "schedule_time": "0 8 * * *",
+                            "is_active": true
                         }
                     ],
                     "type": "array",
