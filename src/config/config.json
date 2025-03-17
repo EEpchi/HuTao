@@ -169,11 +169,11 @@
                 "tasks": {
                     "value": [
                         {
-                            "task_id": "8_00_get_up",
+                            "task_id": "test",
                             "chat_id": "拉拉拉",
-                            "content": "请你模拟扮演的角色，在微信上找用户喊他早上起床",
+                            "content": "请你模拟系统设置的角色，读取前一晚的聊天记忆，用符合场景上下文的对话来叫用户起床。",
                             "schedule_type": "cron",
-                            "schedule_time": "0 8 * * *",
+                            "schedule_time": "0 7 * * *",
                             "is_active": true
                         }
                     ],
