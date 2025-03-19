@@ -27,7 +27,7 @@
                     "description": "DeepSeek API基础URL"
                 },
                 "model": {
-                    "value": "deepseek-ai/DeepSeek-V3",
+                    "value": "deepseek-ai/DeepSeek-R1",
                     "type": "string",
                     "description": "使用的AI模型名称",
                     "options": [
@@ -42,7 +42,7 @@
                     "description": "回复最大token数量"
                 },
                 "temperature": {
-                    "value": 1.26,
+                    "value": 1.03,
                     "type": "number",
                     "description": "AI回复的温度值",
                     "min": 0.0,
@@ -140,7 +140,7 @@
                 },
                 "context": {
                     "max_groups": {
-                        "value": 50,
+                        "value": 64,
                         "type": "number",
                         "description": "最大上下文轮数"
                     },
